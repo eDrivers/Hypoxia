@@ -85,8 +85,11 @@ hypoxia <- hypoxia[hypoxia$Hypoxia > 0, ]
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #                                  EXPORT DATA
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Change name for uniformity
+Hypoxia <- hypoxia 
+
 # Export object as .RData
-save(hypoxia, file = './Data/Driver/Hypoxia.RData')
+save(Hypoxia, file = './Data/Driver/Hypoxia.RData')
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
